@@ -1,0 +1,20 @@
+{
+  "name": "dsa_search_engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshayambhore/dsa_search_engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshayambhore/dsa_search_engine/issues"
+  },
+  "homepage": "https://github.com/akshayambhore/dsa_search_engine#readme",
+  "description": ""
+}
