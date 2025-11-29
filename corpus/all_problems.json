@@ -1,0 +1,37 @@
+[
+  {
+    "title": "New Kingdom",
+    "url": "https://codeforces.com/problemset/problem/2172/N",
+    "description": "In the upcoming strategy game Island Cartographer: Penultimate Chapter (ICPC), players take the role of bridge engineers employed by the Imperial Cartography & Planning Council to design a new kingdom spread across an archipelago of nn islands connected by a network of causeways. To achieve balance between stability and exploration, the council requires that the player's plan satisfy several strict rules.The first and fundamental requirement is that the kingdom must be simple and connected. That is, each causeway connects two different islands, no two causeways connect the same pair of islands, and for each pair of different islands, there exists a route between them using a sequence of causeways.After learning the ancient wisdom of the legendary tourist Euler, some visitors might be able to traverse every causeway exactly once in a single, seamless tour. If this is possible, then those visitors would not have enough time to enjoy their trips. To make them travel for longer, the council's second requirement is that exactly kk islands have an odd number of causeways connected to them.Some causeways are considered vital to the kingdom. A causeway is vital if removing it would make travel between some pair of islands impossible. These causeways are important for local development, cultural identity, and tourism, but having too many of them could lead to traffic congestion. Therefore, the council's third and final requirement is that the kingdom must contain exactly bb vital causeways.To complete a game of ICPC, the player must submit a plan to build causeways that satisfies all the requirements for the parameters nn, kk, and bb provided by the council. Before the game's release, you are tasked with testing the game by designing a valid kingdom plan as the player. In case the game is impossible to complete, please report so."
+  },
+  {
+    "title": "Maximum Distance To Port",
+    "url": "https://codeforces.com/problemset/problem/2172/M",
+    "description": "There are nn cities numbered from 11 to nn, connected by mm bidirectional roads, each exactly 11 kilometer long. The road network forms a connected simple graph.Each city produces exactly one of kk types of agricultural products, numbered from 11 to kk. City 11 is the main port where all products must be delivered.The government wants to estimate the worst-case transportation cost and time for exporting agricultural goods. To achieve this, they need to determine, for each product type, the longest among the shortest distances (in kilometers) from any city producing that product to the port city.Your task is to compute this maximum shortest distance for each product type.   Figure 1: An illustration for sample input 2. "
+  },
+  {
+    "title": "1. Two Sum56.6%Easy",
+    "url": "https://leetcode.com/problems/two-sum",
+    "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order."
+  },
+  {
+    "title": "2. Add Two Numbers47.4%Med.",
+    "url": "https://leetcode.com/problems/add-two-numbers",
+    "description": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself."
+  },
+  {
+    "title": "3. Longest Substring Without Repeating Characters37.9%Med.",
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "description": "Given a string s, find the length of the longest substring without duplicate characters."
+  },
+  {
+    "title": "4. Median of Two Sorted Arrays45.2%Hard",
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+    "description": "Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays. The overall run time complexity should be O(log (m+n))."
+  },
+  {
+    "title": "5. Longest Palindromic Substring36.8%Med.",
+    "url": "https://leetcode.com/problems/longest-palindromic-substring",
+    "description": "Given a string s, return the longest palindromic substring in s."
+  }
+]

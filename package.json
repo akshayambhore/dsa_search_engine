@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge": "node utils/merge.js",
+    "scrape": "node scrape.js",
+    "start": "node index.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akshayambhore/dsa_search_engine.git"
@@ -16,5 +20,11 @@
     "url": "https://github.com/akshayambhore/dsa_search_engine/issues"
   },
   "homepage": "https://github.com/akshayambhore/dsa_search_engine#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "natural": "^8.1.0",
+    "puppeteer": "^24.31.0",
+    "stopword": "^3.1.5"
+  }
 }
