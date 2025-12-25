@@ -54,7 +54,7 @@ async function loadProblemAandBildIndex() {
     tfidf = new TfIdf();
 
     problems.forEach((problem,idx) => {
-        const text = preprocess(`${problem.title} ${problem.description || problem.discription || ""}`)
+        const text = preprocess(`${problem.title} ${problem.title} ${problem.description || problem.discription || ""}`)
 
         tfidf.addDocument(text,idx.toString());
 

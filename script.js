@@ -27,6 +27,7 @@ form.addEventListener("submit",async (e)=>
                 {
                     resultDiv.innerHTML="<p>NO Match Found.</p>"
                 }
+            else{
             resultDiv.innerHTML=results.map((r,i)=>
                 {
                     return`
@@ -43,6 +44,7 @@ form.addEventListener("submit",async (e)=>
                     </div>
                     `;
                 }).join("")
+            }
 
         }
         catch (err)
