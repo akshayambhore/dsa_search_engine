@@ -13,13 +13,14 @@ form.addEventListener("submit",async (e)=>
         spinner.classList.remove("hidden")
         try
         {
-            const res = await fetch("/search",
+            const res = await fetch("https://dsa-search-engine-53za.onrender.com/search",
                 {
                     method:"POST",
                     headers:{"Content-Type":"application/json"},
                     body:JSON.stringify({query})
                 })
             if(!res.ok) throw new Error(`Server error:${res.status}`)
+                
             const { results } = await res.json();
             console.log(results)
             spinner.classList.add("hidden");

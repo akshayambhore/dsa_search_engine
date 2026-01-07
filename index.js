@@ -38,7 +38,7 @@ const {TfIdf} = pkg
 const app = express();
 const PORT = process.env.PORT||3000;
 app.use(express.json()) 
-app.use(express.static("."))
+
 
 
 let problems=[]
@@ -149,9 +149,12 @@ app.post("/search",async(req,res)=>
 
 
     })
+app.use(express.static("public"))
 loadProblemAandBildIndex().then(()=>
         {
             app.listen(PORT,()=>{
                 console.log(`server is runing on port ${PORT}`)
             })
         })
+
+        
